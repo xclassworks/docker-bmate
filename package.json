@@ -1,0 +1,19 @@
+{
+  "name": "docker-bmate-server",
+  "version": "0.0.1",
+  "description": "Bmate Server",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xclassworks/docker-bmate.git"
+  },
+  "author": "Henrique Cabral",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/xclassworks/docker-bmate/issues"
+  },
+  "homepage": "https://github.com/xclassworks/docker-bmate#readme",
+  "dependencies": {
+    "bserver": "git+https://github.com/xclassworks/bserver.git",
+    "bwebclient": "git+https://github.com/xclassworks/bwebclient.git"
+  }
+}
