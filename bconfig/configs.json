@@ -1,0 +1,13 @@
+{
+    "useSecureServer": false,
+    "webAppPort": 80,
+    "socketServer": {
+        "address": "bmate.com.br",
+        "port": 8989
+    },
+    "webRTC": {
+        "iceServers": [
+            { "url": "stun:stun.l.google.com:19302" }
+        ]
+    }
+}
