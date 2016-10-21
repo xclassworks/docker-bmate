@@ -23,5 +23,4 @@ RUN npm install
 EXPOSE 8989
 EXPOSE 80
 
-CMD ["node", "/bmate/bserver/index.js", ";", "node", "/bmate/bwebclient/index.js"]
-#CMD ["node", "/bmate/bwebclient/index.js"]
+CMD ["node", "/bmate/bserver/main.js", ";", "node", "/bmate/bwebclient/index.js"]
